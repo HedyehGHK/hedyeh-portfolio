@@ -1,567 +1,521 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Hedyeh Ghesmati — Junior Web Developer</title>
-<meta name="description" content="Junior Web Developer building thoughtful web applications with React, Node.js, and modern web technologies." />
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hedyeh Ghesmati — Junior Web Developer</title>
+    <meta
+      name="description"
+      content="Junior Web Developer building thoughtful web applications with React, Node.js, and modern web technologies."
+    />
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,400&family=JetBrains+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
 
-<link rel="stylesheet" href="css/style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <nav id="navbar">
+      <a href="#top" class="nav-logo">Hedyeh G.</a>
+      <ul class="nav-links">
+        <li><a href="#about" data-num="01">About</a></li>
+        <li><a href="#work" data-num="02">Work</a></li>
+        <li><a href="#experience" data-num="03">Experience</a></li>
+        <li><a href="#contact" data-num="04">Contact</a></li>
+      </ul>
+    </nav>
 
-<nav id="navbar">
-  <a href="#top" class="nav-logo">Hedyeh G.</a>
-  <ul class="nav-links">
-    <li><a href="#about" data-num="01">About</a></li>
-    <li><a href="#work" data-num="02">Work</a></li>
-    <li><a href="#experience" data-num="03">Experience</a></li>
-    <li><a href="#contact" data-num="04">Contact</a></li>
-  </ul>
-</nav>
+    <main id="top">
+      <!-- HERO -->
+      <section class="hero">
+        <div class="container">
+          <div class="hero-eyebrow fade-up">
+            Web Developer • Software Developer • Aurora, Ontario
+          </div>
 
-<main id="top">
+          <div class="hero-main fade-up fade-up-delay-1">
+            <div class="hero-text">
+              <h1 class="hero-title">
+                Building software<br />
+                that solves <em>real</em><br />
+                business problems.
+              </h1>
 
+              <p class="hero-description fade-up fade-up-delay-2">
+                Hi, I'm <strong>Hedyeh Ghesmati</strong>, a Web & Software
+                Developer with a background in Industrial Engineering and
+                Computer Programming. I enjoy transforming complex business
+                workflows into practical digital solutions-from business
+                management systems and AI-powered applications to modern,
+                user-friendly websites. My recent work includes web development
+                at the <strong>Toronto District School Board (TDSB)</strong> and
+                building software for real-world clients.
+              </p>
 
-<!-- HERO -->
-<section class="hero">
-  <div class="container">
+              <div class="hero-cta fade-up fade-up-delay-3">
+                <a href="#work" class="btn btn-primary">
+                  View My Projects <span class="btn-arrow">→</span>
+                </a>
+                <a href="#contact" class="btn btn-secondary"> Contact Me </a>
+              </div>
+            </div>
 
-    <div class="hero-eyebrow fade-up">
-      Web Developer • Software Developer • Aurora, Ontario
-    </div>
+            <div class="hero-photo">
+              <img src="images/hedyeh.jpg" alt="Hedyeh Ghesmati" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ABOUT -->
+      <section id="about">
+        <div class="container">
+          <div class="section-header reveal">
+            <span class="section-number">01</span>
+            <h2 class="section-title">About</h2>
+          </div>
 
-    <div class="hero-main fade-up fade-up-delay-1">
-      <div class="hero-text">
-        <h1 class="hero-title">
-          Building software<br>
-          that solves <em>real</em><br>
-          business problems.
-        </h1>
+          <div class="about-grid">
+            <div class="about-text reveal">
+              <p>
+                I enjoy building software that solves real business problems.
+                With a background in Industrial Engineering and Computer
+                Programming, I approach every project by first understanding the
+                workflow, then designing practical solutions that are intuitive,
+                efficient, and built for real users.
+              </p>
 
-        <p class="hero-description fade-up fade-up-delay-2">
-          Hi, I'm <strong>Hedyeh Ghesmati</strong>, a Web & Software Developer with a background in
-          Industrial Engineering and Computer Programming. I enjoy transforming complex business
-          workflows into practical digital solutions-from business management systems and AI-powered
-          applications to modern, user-friendly websites. My recent work includes web development at
-          the <strong>Toronto District School Board (TDSB)</strong> and building software for real-world clients.
-        </p>
+              <p>
+                My experience includes developing business management systems,
+                AI-powered applications, and modern websites. From digitizing
+                inventory processes for a family-owned jewelry business to
+                building web solutions for educational and healthcare
+                organizations, I enjoy transforming complex ideas into clean,
+                user-friendly software.
+              </p>
 
-        <div class="hero-cta fade-up fade-up-delay-3">
-          <a href="#work" class="btn btn-primary">
-            View My Projects <span class="btn-arrow">→</span>
-          </a>
-          <a href="#contact" class="btn btn-secondary">
-            Contact Me
-          </a>
+              <p>
+                I believe great software is more than writing code—it is about
+                understanding people, improving processes, and creating
+                solutions that make everyday work simpler and more effective.
+                Every project is an opportunity to learn, improve, and build
+                something that creates real value.
+              </p>
+            </div>
+
+            <aside class="about-meta reveal">
+              <div class="meta-item">
+                <div class="meta-label">Latest Experience</div>
+                <div class="meta-value">
+                  Web Developer Assistant<br />
+                  <em>Toronto District School Board (Co-op)</em>
+                </div>
+              </div>
+              <div class="meta-item">
+                <div class="meta-label">Education</div>
+                <div class="meta-value">
+                  Computer Programming<br />
+                  <em>Seneca Polytechnic</em><br /><br />
+
+                  B.Sc. Industrial Engineering
+                </div>
+              </div>
+
+              <div class="meta-item">
+                <div class="meta-label">Based In</div>
+                <div class="meta-value">Aurora, Ontario</div>
+              </div>
+
+              <div class="meta-item">
+                <div class="meta-label">Interested In</div>
+                <div class="meta-value">
+                  <em>Web Development</em><br />
+                  Software Development<br />
+                  AI Applications
+                </div>
+              </div>
+            </aside>
+          </div>
+        </div>
+      </section>
+
+      <div class="container">
+        <div class="divider">
+          <span class="divider-mark">§</span>
         </div>
       </div>
 
-      <div class="hero-photo">
-        <img src="images/hedyeh.jpg" alt="Hedyeh Ghesmati">
+      <!-- WORK / PROJECTS -->
+      <section id="work">
+        <div class="container">
+          <div class="section-header reveal">
+            <span class="section-number">02</span>
+            <h2 class="section-title">Selected Work</h2>
+          </div>
+
+          <div class="projects-list">
+            <!-- Project 01 -->
+            <article class="project project-featured reveal">
+              <div class="project-num">01</div>
+
+              <div class="project-content">
+                <span class="featured-badge">★ Featured Project</span>
+
+                <h3 class="project-title">
+                  GoldShop <em>Inventory & Invoice System</em>
+                </h3>
+
+                <p class="project-description">
+                  A desktop application developed for a family-owned jewelry
+                  business to replace paper-based inventory management and Excel
+                  workflows. The system centralizes inventory, customer
+                  management, invoicing, and automated pricing calculations
+                  through a clean Persian user interface designed for everyday
+                  business operations.
+                </p>
+
+                <div class="project-tags">
+                  <span class="tag">JavaScript</span>
+                  <span class="tag">Node.js</span>
+                  <span class="tag">Express</span>
+                  <span class="tag">Electron</span>
+                  <span class="tag">SQLite</span>
+                </div>
+
+                <div class="project-links">
+                  <a href="projects/goldshop.html" class="project-link">
+                    View Project ↗
+                  </a>
+                </div>
+              </div>
+
+              <div class="project-arrow">↗</div>
+            </article>
+
+            <!-- Project 02 -->
+            <article class="project reveal">
+              <div class="project-num">02</div>
+
+              <div class="project-content">
+                <h3 class="project-title">
+                  Silverthorn <em>Collegiate Website</em>
+                </h3>
+
+                <p class="project-description">
+                  Contributed to the development and maintenance of the
+                  Silverthorn Collegiate Institute website during my co-op
+                  placement with the Toronto District School Board. Improved
+                  content organization, responsive layouts, accessibility, and
+                  user experience across multiple school webpages using the DNN
+                  content management system.
+                </p>
+
+                <div class="project-tags">
+                  <span class="tag">DNN CMS</span>
+                  <span class="tag">HTML5</span>
+                  <span class="tag">CSS3</span>
+                  <span class="tag">JavaScript</span>
+                  <span class="tag">Responsive Design</span>
+                </div>
+
+                <div class="project-links">
+                  <a href="projects/silverthorn.html" class="project-link">
+                    View Project ↗
+                  </a>
+                </div>
+              </div>
+
+              <div class="project-arrow">↗</div>
+            </article>
+
+            <!-- Project 03 -->
+            <article class="project reveal">
+              <div class="project-num">03</div>
+
+              <div class="project-content">
+                <h3 class="project-title">
+                  Therapist <em>Portfolio Website</em>
+                </h3>
+
+                <p class="project-description">
+                  Designed and developed a responsive portfolio website for a
+                  professional counselling practice. The website presents
+                  therapy services, therapist profile, contact information, and
+                  appointment details through a clean, accessible, and
+                  mobile-first user experience with a strong focus on usability
+                  and modern front-end design.
+                </p>
+
+                <div class="project-tags">
+                  <span class="tag">HTML5</span>
+                  <span class="tag">CSS3</span>
+                  <span class="tag">JavaScript</span>
+                  <span class="tag">Responsive Design</span>
+                  <span class="tag">Vercel</span>
+                </div>
+
+                <div class="project-links">
+                  <a href="projects/clinic.html" class="project-link">
+                    View Project ↗
+                  </a>
+                </div>
+              </div>
+
+              <div class="project-arrow">↗</div>
+            </article>
+
+            <!-- Project 04 -->
+            <article class="project reveal">
+              <div class="project-num">04</div>
+
+              <div class="project-content">
+                <h3 class="project-title">CaseNote <em>AI</em></h3>
+
+                <p class="project-description">
+                  An AI-powered application designed to assist therapists with
+                  organizing clinical notes, identifying behavioral patterns,
+                  and generating structured case summaries. Built to explore how
+                  artificial intelligence can support mental health
+                  professionals while improving documentation efficiency.
+                </p>
+
+                <div class="project-tags">
+                  <span class="tag">React</span>
+                  <span class="tag">Node.js</span>
+                  <span class="tag">Express</span>
+                  <span class="tag">Gemini API</span>
+                  <span class="tag">AI</span>
+                </div>
+
+                <div class="project-links">
+                  <a href="projects/casenote.html" class="project-link">
+                    View Project ↗
+                  </a>
+                </div>
+              </div>
+
+              <div class="project-arrow">↗</div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- EXPERIENCE -->
+      <section id="experience">
+        <div class="container">
+          <div class="section-header reveal">
+            <span class="section-number">03</span>
+            <h2 class="section-title">Experience</h2>
+          </div>
+
+          <div class="experience-list">
+            <!-- Experience 01 -->
+            <div class="exp-item reveal">
+              <div class="exp-period">Mar 2026 — Jun 2026</div>
+
+              <div>
+                <div class="exp-role">Web Developer Assistant (Co-op)</div>
+                <div class="exp-company">
+                  Toronto District School Board (TDSB) · Toronto, ON
+                </div>
+
+                <p class="exp-description">
+                  Maintained and enhanced the Silverthorn Collegiate Institute
+                  website using Evoq CMS (DNN). Created and updated webpages,
+                  banners, and navigation components, supported accessibility
+                  improvements aligned with AODA standards, collaborated with
+                  stakeholders on content updates, and resolved formatting and
+                  cross-browser compatibility issues.
+                </p>
+              </div>
+            </div>
+
+            <!-- Experience 02 -->
+            <div class="exp-item reveal">
+              <div class="exp-period">2020 — 2025</div>
+
+              <div>
+                <div class="exp-role">Digital Operations & Data Specialist</div>
+                <div class="exp-company">Ghesmati Jewelry</div>
+
+                <p class="exp-description">
+                  Designed and developed a custom inventory and invoicing
+                  application while managing inventory, sales, and customer
+                  data. Improved operational workflows through process
+                  documentation, data organization, and reporting to support
+                  day-to-day business operations and decision-making.
+                </p>
+              </div>
+            </div>
+
+            <!-- Experience 03 -->
+            <div class="exp-item reveal">
+              <div class="exp-period">2015 — 2020</div>
+
+              <div>
+                <div class="exp-role">
+                  Production & Inventory Data Coordinator
+                </div>
+                <div class="exp-company">Pars Khazar Co.</div>
+
+                <p class="exp-description">
+                  Analyzed production and inventory data to improve planning
+                  accuracy, maintained operational records, collaborated with
+                  cross-functional teams, and supported inventory tracking and
+                  production planning through structured data analysis and
+                  process improvement.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="container">
+        <div class="divider">
+          <span class="divider-mark">§</span>
+        </div>
       </div>
-    </div>
 
-  </div>
-</section>
-<!-- ABOUT -->
-<section id="about">
-  <div class="container">
-    <div class="section-header reveal">
-      <span class="section-number">01</span>
-      <h2 class="section-title">About</h2>
-    </div>
+      <!-- SKILLS -->
+      <section id="skills">
+        <div class="container">
+          <div class="section-header reveal">
+            <span class="section-number">04</span>
+            <h2 class="section-title">Toolkit</h2>
+          </div>
 
-    <div class="about-grid">
+          <div class="skills-grid">
+            <div class="skill-category reveal">
+              <div class="skill-category-title">Frontend</div>
 
-      <div class="about-text reveal">
+              <ul class="skill-list">
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript (ES6+)</li>
+                <li>React</li>
+                <li>Bootstrap</li>
+                <li>Responsive Web Design</li>
+              </ul>
+            </div>
 
-        <p>
-          I enjoy building software that solves real business problems. With a background in
-          Industrial Engineering and Computer Programming, I approach every project by first
-          understanding the workflow, then designing practical solutions that are intuitive,
-          efficient, and built for real users.
-        </p>
+            <div class="skill-category reveal">
+              <div class="skill-category-title">Backend</div>
 
-        <p>
-          My experience includes developing business management systems, AI-powered applications,
-          and modern websites. From digitizing inventory processes for a family-owned jewelry
-          business to building web solutions for educational and healthcare organizations, I enjoy
-          transforming complex ideas into clean, user-friendly software.
-        </p>
+              <ul class="skill-list">
+                <li>Node.js</li>
+                <li>Express.js</li>
+                <li>REST APIs</li>
+                <li>Electron</li>
+                <li>Server-side Development</li>
+              </ul>
+            </div>
 
-        <p>
-          I believe great software is more than writing code—it is about understanding people,
-          improving processes, and creating solutions that make everyday work simpler and more
-          effective. Every project is an opportunity to learn, improve, and build something that
-          creates real value.
-        </p>
+            <div class="skill-category reveal">
+              <div class="skill-category-title">Database & AI</div>
 
-      </div>
+              <ul class="skill-list">
+                <li>Oracle SQL</li>
+                <li>SQLite</li>
+                <li>Database Design</li>
+                <li>Gemini API</li>
+                <li>JSON</li>
+              </ul>
+            </div>
 
-      <aside class="about-meta reveal">
+            <div class="skill-category reveal">
+              <div class="skill-category-title">Tools & Platforms</div>
 
-        <div class="meta-item">
-          <div class="meta-label">Latest Experience</div>
-          <div class="meta-value">
-            Web Developer Assistant<br>
-            <em>Toronto District School Board (Co-op)</em>
+              <ul class="skill-list">
+                <li>Git & GitHub</li>
+                <li>Postman</li>
+                <li>Vercel</li>
+                <li>Evoq CMS (DNN)</li>
+                <li>Visual Studio Code</li>
+              </ul>
+            </div>
           </div>
         </div>
-<div class="meta-item">
-  <div class="meta-label">Education</div>
-  <div class="meta-value">
-    Computer Programming<br>
-    <em>Seneca Polytechnic</em><br><br>
+      </section>
 
-    B.Sc. Industrial Engineering
-  </div>
-</div>
+      <!-- CONTACT -->
+      <section id="contact" class="contact-section">
+        <div class="container">
+          <div class="reveal">
+            <div class="contact-eyebrow">— Let's Connect —</div>
 
-        <div class="meta-item">
-          <div class="meta-label">Based In</div>
-          <div class="meta-value">
-            Aurora, Ontario
-          </div>
-        </div>
+            <h2 class="contact-title">
+              Let's build something<br />
+              <em>great together.</em>
+            </h2>
 
-        <div class="meta-item">
-          <div class="meta-label">Interested In</div>
-          <div class="meta-value">
-            <em>Web Development</em><br>
-            Software Development<br>
-            AI Applications
-          </div>
-        </div>
+            <p class="contact-text">
+              I'm open to web development, software development, and freelance
+              opportunities. Whether you have a project in mind or simply want
+              to connect, I'd be happy to hear from you.
+            </p>
 
-      </aside>
-
-    </div>
-  </div>
-</section>
-
-<div class="container">
-  <div class="divider">
-    <span class="divider-mark">§</span>
-  </div>
-</div>
-
-<!-- WORK / PROJECTS -->
-<section id="work">
-  <div class="container">
-
-    <div class="section-header reveal">
-      <span class="section-number">02</span>
-      <h2 class="section-title">Selected Work</h2>
-    </div>
-
-    <div class="projects-list">
-
-      <!-- Project 01 -->
-      <article class="project project-featured reveal">
-        <div class="project-num">01</div>
-
-        <div class="project-content">
-
-          <span class="featured-badge">★ Featured Project</span>
-
-          <h3 class="project-title">
-            GoldShop <em>Inventory & Invoice System</em>
-          </h3>
-
-          <p class="project-description">
-            A desktop application developed for a family-owned jewelry business to replace
-            paper-based inventory management and Excel workflows. The system centralizes
-            inventory, customer management, invoicing, and automated pricing calculations
-            through a clean Persian user interface designed for everyday business operations.
-          </p>
-
-          <div class="project-tags">
-            <span class="tag">JavaScript</span>
-            <span class="tag">Node.js</span>
-            <span class="tag">Express</span>
-            <span class="tag">Electron</span>
-            <span class="tag">SQLite</span>
-          </div>
-
-          <div class="project-links">
-            <a href="https://github.com/HedyehGHK/GoldShopApp" class="project-link" target="_blank">
-              GitHub ↗
+            <a href="mailto:ghesmatihedyeh@gmail.com" class="contact-email">
+              ghesmatihedyeh@gmail.com
             </a>
 
-            <a href="projects/goldshop.html" class="project-link">
-              View Project ↗
-            </a>
-          </div>
+            <div class="contact-socials">
+              <a
+                href="https://www.linkedin.com/in/hedyehghesmati/"
+                target="_blank"
+              >
+                LinkedIn ↗
+              </a>
 
+              <a href="https://github.com/HedyehGHK" target="_blank">
+                GitHub ↗
+              </a>
+
+              <a href="tel:+14169105744"> +1 (416) 910-5744 </a>
+            </div>
+          </div>
         </div>
+      </section>
 
-        <div class="project-arrow">↗</div>
-      </article>
-
-
-      <!-- Project 02 -->
-      <article class="project reveal">
-        <div class="project-num">02</div>
-
-        <div class="project-content">
-
-          <h3 class="project-title">
-            Silverthorn <em>Collegiate Website</em>
-          </h3>
-
-          <p class="project-description">
-            Contributed to the development and maintenance of the Silverthorn Collegiate Institute
-            website during my co-op placement with the Toronto District School Board. Improved
-            content organization, responsive layouts, accessibility, and user experience across
-            multiple school webpages using the DNN content management system.
-          </p>
-
-          <div class="project-tags">
-            <span class="tag">DNN CMS</span>
-            <span class="tag">HTML5</span>
-            <span class="tag">CSS3</span>
-            <span class="tag">JavaScript</span>
-            <span class="tag">Responsive Design</span>
-          </div>
-
-          <div class="project-links">
-            <a href="projects/silverthorn.html" class="project-link">
-              View Project ↗
-            </a>
-          </div>
-
+      <footer>
+        <div class="container">
+          © 2026 Hedyeh Ghesmati · Designed & built with care
         </div>
-
-        <div class="project-arrow">↗</div>
-      </article>
-
-
-      <!-- Project 03 -->
-      <article class="project reveal">
-        <div class="project-num">03</div>
-
-        <div class="project-content">
-
-          <h3 class="project-title">
-            Therapist <em>Portfolio Website</em>
-          </h3>
-
-          <p class="project-description">
-            Designed and developed a responsive portfolio website for a professional counselling
-            practice. The website presents therapy services, therapist profile, contact
-            information, and appointment details through a clean, accessible, and mobile-first
-            user experience with a strong focus on usability and modern front-end design.
-          </p>
-
-          <div class="project-tags">
-            <span class="tag">HTML5</span>
-            <span class="tag">CSS3</span>
-            <span class="tag">JavaScript</span>
-            <span class="tag">Responsive Design</span>
-            <span class="tag">Vercel</span>
-          </div>
-
-          <div class="project-links">
-            <a href="https://psychologist-website-html.vercel.app/" class="project-link" target="_blank">
-              Live Website ↗
-            </a>
-
-            <a href="https://github.com/HedyehGHK/psychologist-website-html" class="project-link" target="_blank">
-              GitHub ↗
-            </a>
-
-            <a href="projects/clinic.html" class="project-link">
-              View Project ↗
-            </a>
-          </div>
-
-        </div>
-
-        <div class="project-arrow">↗</div>
-      </article>
-
-
-      <!-- Project 04 -->
-      <article class="project reveal">
-        <div class="project-num">04</div>
-
-        <div class="project-content">
-
-          <h3 class="project-title">
-            CaseNote <em>AI</em>
-          </h3>
-
-          <p class="project-description">
-            An AI-powered application designed to assist therapists with organizing clinical
-            notes, identifying behavioral patterns, and generating structured case summaries.
-            Built to explore how artificial intelligence can support mental health professionals
-            while improving documentation efficiency.
-          </p>
-
-          <div class="project-tags">
-            <span class="tag">React</span>
-            <span class="tag">Node.js</span>
-            <span class="tag">Express</span>
-            <span class="tag">Gemini API</span>
-            <span class="tag">AI</span>
-          </div>
-
-          <div class="project-links">
-            <a href="https://github.com/HedyehGHK/casenote-ai" class="project-link" target="_blank">
-              GitHub ↗
-            </a>
-
-            <a href="projects/casenote.html" class="project-link">
-              View Project ↗
-            </a>
-          </div>
-
-        </div>
-
-        <div class="project-arrow">↗</div>
-      </article>
-
-    </div>
-
-  </div>
-</section>
-
-<!-- EXPERIENCE -->
-<section id="experience">
-  <div class="container">
-
-    <div class="section-header reveal">
-      <span class="section-number">03</span>
-      <h2 class="section-title">Experience</h2>
-    </div>
-
-    <div class="experience-list">
-
-      <!-- Experience 01 -->
-      <div class="exp-item reveal">
-        <div class="exp-period">Mar 2026 — Jun 2026</div>
-
-        <div>
-          <div class="exp-role">Web Developer Assistant (Co-op)</div>
-          <div class="exp-company">
-            Toronto District School Board (TDSB) · Toronto, ON
-          </div>
-
-          <p class="exp-description">
-            Maintained and enhanced the Silverthorn Collegiate Institute website using
-            Evoq CMS (DNN). Created and updated webpages, banners, and navigation
-            components, supported accessibility improvements aligned with AODA
-            standards, collaborated with stakeholders on content updates, and resolved
-            formatting and cross-browser compatibility issues.
-          </p>
-        </div>
-      </div>
-
-
-      <!-- Experience 02 -->
-      <div class="exp-item reveal">
-        <div class="exp-period">2020 — 2025</div>
-
-        <div>
-          <div class="exp-role">Digital Operations & Data Specialist</div>
-          <div class="exp-company">
-            Ghesmati Jewelry
-          </div>
-
-          <p class="exp-description">
-            Designed and developed a custom inventory and invoicing application while
-            managing inventory, sales, and customer data. Improved operational
-            workflows through process documentation, data organization, and reporting
-            to support day-to-day business operations and decision-making.
-          </p>
-        </div>
-      </div>
-
-
-      <!-- Experience 03 -->
-      <div class="exp-item reveal">
-        <div class="exp-period">2015 — 2020</div>
-
-        <div>
-          <div class="exp-role">Production & Inventory Data Coordinator</div>
-          <div class="exp-company">
-            Pars Khazar Co.
-          </div>
-
-          <p class="exp-description">
-            Analyzed production and inventory data to improve planning accuracy,
-            maintained operational records, collaborated with cross-functional teams,
-            and supported inventory tracking and production planning through
-            structured data analysis and process improvement.
-          </p>
-        </div>
-      </div>
-
-    </div>
-
-  </div>
-</section>
-
-<div class="container">
-  <div class="divider">
-    <span class="divider-mark">§</span>
-  </div>
-</div>
-
-<!-- SKILLS -->
-<section id="skills">
-  <div class="container">
-
-    <div class="section-header reveal">
-      <span class="section-number">04</span>
-      <h2 class="section-title">Toolkit</h2>
-    </div>
-
-    <div class="skills-grid">
-
-      <div class="skill-category reveal">
-        <div class="skill-category-title">Frontend</div>
-
-        <ul class="skill-list">
-          <li>HTML5</li>
-          <li>CSS3</li>
-          <li>JavaScript (ES6+)</li>
-          <li>React</li>
-          <li>Bootstrap</li>
-          <li>Responsive Web Design</li>
-        </ul>
-      </div>
-
-
-      <div class="skill-category reveal">
-        <div class="skill-category-title">Backend</div>
-
-        <ul class="skill-list">
-          <li>Node.js</li>
-          <li>Express.js</li>
-          <li>REST APIs</li>
-          <li>Electron</li>
-          <li>Server-side Development</li>
-        </ul>
-      </div>
-
-
-      <div class="skill-category reveal">
-        <div class="skill-category-title">Database & AI</div>
-
-        <ul class="skill-list">
-          <li>Oracle SQL</li>
-          <li>SQLite</li>
-          <li>Database Design</li>
-          <li>Gemini API</li>
-          <li>JSON</li>
-        </ul>
-      </div>
-
-
-      <div class="skill-category reveal">
-        <div class="skill-category-title">Tools & Platforms</div>
-
-        <ul class="skill-list">
-          <li>Git & GitHub</li>
-          <li>Postman</li>
-          <li>Vercel</li>
-          <li>Evoq CMS (DNN)</li>
-          <li>Visual Studio Code</li>
-        </ul>
-      </div>
-
-    </div>
-
-  </div>
-</section>
-
-
-
-<!-- CONTACT -->
-<section id="contact" class="contact-section">
-  <div class="container">
-
-    <div class="reveal">
-
-      <div class="contact-eyebrow">
-        — Let's Connect —
-      </div>
-
-      <h2 class="contact-title">
-        Let's build something<br>
-        <em>great together.</em>
-      </h2>
-
-      <p class="contact-text">
-        I'm open to web development, software development, and freelance opportunities.
-        Whether you have a project in mind or simply want to connect, I'd be happy to hear from you.
-      </p>
-
-      <a href="mailto:ghesmatihedyeh@gmail.com" class="contact-email">
-        ghesmatihedyeh@gmail.com
-      </a>
-
-      <div class="contact-socials">
-
-        <a href="https://www.linkedin.com/in/hedyehghesmati/" target="_blank">
-          LinkedIn ↗
-        </a>
-
-        <a href="https://github.com/HedyehGHK" target="_blank">
-          GitHub ↗
-        </a>
-
-        <a href="tel:+14169105744">
-          +1 (416) 910-5744
-        </a>
-
-      </div>
-
-    </div>
-
-  </div>
-</section>
-
-
-  <footer>
-    <div class="container">
-      © 2026 Hedyeh Ghesmati · Designed & built with care
-    </div>
-  </footer>
-
-</main>
-
-<script>
-  const nav = document.getElementById('navbar');
-  window.addEventListener('scroll', () => {
-    if (window.scrollY > 50) nav.classList.add('scrolled');
-    else nav.classList.remove('scrolled');
-  });
-
-  const observer = new IntersectionObserver((entries) => {
-    entries.forEach(entry => {
-      if (entry.isIntersecting) entry.target.classList.add('visible');
-    });
-  }, { threshold: 0.1, rootMargin: '0px 0px -50px 0px' });
-
-  document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
-
-  document.querySelectorAll('a[href^="#"]').forEach(link => {
-    link.addEventListener('click', (e) => {
-      const target = document.querySelector(link.getAttribute('href'));
-      if (target) {
-        e.preventDefault();
-        target.scrollIntoView({ behavior: 'smooth', block: 'start' });
-      }
-    });
-  });
-</script>
-
-</body>
+      </footer>
+    </main>
+
+    <script>
+      const nav = document.getElementById("navbar");
+      window.addEventListener("scroll", () => {
+        if (window.scrollY > 50) nav.classList.add("scrolled");
+        else nav.classList.remove("scrolled");
+      });
+
+      const observer = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) entry.target.classList.add("visible");
+          });
+        },
+        { threshold: 0.1, rootMargin: "0px 0px -50px 0px" },
+      );
+
+      document
+        .querySelectorAll(".reveal")
+        .forEach((el) => observer.observe(el));
+
+      document.querySelectorAll('a[href^="#"]').forEach((link) => {
+        link.addEventListener("click", (e) => {
+          const target = document.querySelector(link.getAttribute("href"));
+          if (target) {
+            e.preventDefault();
+            target.scrollIntoView({ behavior: "smooth", block: "start" });
+          }
+        });
+      });
+    </script>
+  </body>
 </html>
